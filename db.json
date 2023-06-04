@@ -1,0 +1,94 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "title": "Dust Case",
+      "sale": 11.99,
+      "price": 5.99,
+      "img": "https://www.csgodatabase.com/images/cases/webp/Prisma_2_Case.webp",
+      "container": [{
+        "name": "AK-47",
+        "img": "",
+        "price": 4.87
+      },
+      {
+        "name": "M4A4",
+        "img": "",
+        "price": 3.97
+      }]
+    },
+    {
+      "id": 3,
+      "title": "Prime Case",
+      "sale": 13.99,
+      "price": "6.99",
+      "img": "https://www.csgodatabase.com/images/cases/webp/Falchion_Case.webp"
+    },
+    {
+      "id": 5,
+      "title": "Simple Case",
+      "sale": 12.99,
+      "price": 5.99,
+      "img": "https://www.csgodatabase.com/images/cases/webp/Operation_Bravo_Case.webp"
+    },
+    {
+      "id": 6,
+      "title": "Anime Case",
+      "sale": 13.99,
+      "price": 7.99,
+      "img": "https://www.csgodatabase.com/images/cases/Fracture_Case.png"
+    },
+    {
+      "title": "Ohio Case",
+      "sale": "10.99",
+      "price": "3.99",
+      "img": "https://www.csgodatabase.com/images/cases/webp/Operation_Hydra_Case.webp",
+      "id": 7
+    },
+    {
+      "title": "Hitman Case",
+      "sale": "12.99",
+      "price": "4.99",
+      "img": "https://www.csgodatabase.com/images/cases/webp/Anubis_Collection_Package.webp",
+      "id": 8
+    },
+    {
+      "title": "Gucci Case",
+      "sale": "9.99",
+      "price": "3.99",
+      "img": "https://www.csgodatabase.com/images/cases/webp/Dreams_and_Nightmares_Case.webp",
+      "id": 9
+    },
+    {
+      "title": "Skinhead Case",
+      "sale": "7.99",
+      "price": "2.99",
+      "img": "https://www.csgodatabase.com/images/cases/webp/Shattered_Web_Case.webp",
+      "id": 10
+    },
+    {
+      "title": "Anime Case",
+      "sale": "11.99",
+      "price": "5.99",
+      "img": "https://www.csgodatabase.com/images/cases/webp/CS:GO_Weapon_Case_3.webp",
+      "id": 11
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

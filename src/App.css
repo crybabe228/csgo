@@ -1,0 +1,14 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.active {
+    transform: translateY(-10%);
+    opacity: 0;
+    transition: 1s;
+}
+
+.active.on{
+    transform: translateY(0);
+    opacity: 1;
+}

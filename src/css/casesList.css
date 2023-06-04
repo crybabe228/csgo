@@ -1,0 +1,10 @@
+.cases_list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    row-gap: 50px;
+}
+

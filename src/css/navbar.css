@@ -1,0 +1,86 @@
+
+.navbar{
+    background-color: rgb(55, 55, 105);
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+    /* position: fixed; */
+}
+
+
+
+/* .active {
+    opacity: 1;
+    animation-name: fade;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+} */
+
+.logo{
+    padding: 0;
+    width: 198px;
+    height: 108px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar_ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    color: #fff;
+}
+
+.navbar_ul .navbar_li{
+    font-size: 24px;
+    transition: 0.4s;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.navbar_ul:hover .navbar_li{
+   opacity: 0.3;
+}
+
+
+.navbar_ul .navbar_li:hover{
+    opacity: 1;
+    /* background-color: rgb(76, 76, 156); */
+}
+
+.nav_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login{
+    margin-right: 20px;
+  padding: 20px 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.login:hover{
+    /* border-radius: 30px; */
+ 
+    background-color: orange;
+}
+
+/* @keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */

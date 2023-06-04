@@ -1,0 +1,51 @@
+.edit_back{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.edit_form{
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #354259;
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.edit_input{
+    /* background-color: #ece5c7; */
+    text-align: center;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.edit_h1{
+    color: #ece5c7;
+    margin: 0 auto;
+    transition: .6s;
+}
+
+.edit_submit{
+    border: none;
+    background-color: rgb(247, 185, 70);
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: #000;
+    font-weight: 700;
+    transition: .6s;
+}
+
+.edit_submit:hover {
+    background-color: #cdc2ae;
+    scale: 1.05;
+    letter-spacing: 3px;
+}

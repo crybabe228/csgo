@@ -1,0 +1,78 @@
+.card{
+    text-align: center;
+    background-color: rgb(55, 55, 105);
+    margin: 0 40px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.4s;
+   
+}
+
+.card_img{
+    width: 230px;
+    height: 170px;
+}
+
+.card_h2{
+    color: #fff;
+}
+
+.card:hover{
+    transform: translateY(-30px);
+    background-color: rgb(76, 76, 156);
+    /* scale: 1.1; */
+    box-shadow: 1px 8px 20px rgb(8, 8, 8);
+}
+
+.buttons{
+    display: flex;
+    width: 230px;
+    flex-direction: column;   
+    align-items: center; 
+    gap: 15px;
+}
+
+.buy{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 79);
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+
+}
+
+.sale{
+    margin: 0;
+    margin-right: 10px;
+    color: #000;
+    text-decoration: line-through;
+}
+
+.btn{
+    color: gold;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+.delete {
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(175, 23, 23);
+    color: #fff;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.edit{
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    padding: 10px 0;
+    cursor: pointer;
+}
